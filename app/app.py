@@ -6,7 +6,7 @@ app = Flask(__name__)
 def hello():
     data = {
         "title": "Flask Application",
-        "message": "Hello From Waforge Team!",
+        "message": "Hello From the Waforge Team!",
         "emoji": "😍😍😍",
         "author": "Atyeti"
     }
