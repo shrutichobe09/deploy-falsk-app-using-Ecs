@@ -4,7 +4,7 @@ metadata:
   name: flask-app
   namespace: flask-ns
 spec:
-  replicas: 2
+  replicas: 5
   selector:
     matchLabels:
       app: flask-app
