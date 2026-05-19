@@ -7,8 +7,8 @@ def hello():
     data = {
         "title": "Flask Application",
         "message": "Hello From Waforge Team!",
-        "emoji": "👌👌👌👌👌👌👌👌👌👌",
-        "author": "Sai"
+        "emoji": "😍😍😍",
+        "author": "Atyeti"
     }
 
     return render_template("index.html", data=data)
