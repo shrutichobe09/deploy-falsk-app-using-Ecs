@@ -5,10 +5,10 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     data = {
-        "title": "Flask Docker Application",
-        "message": "Hello from ECS Flask application!",
+        "title": "Flask Application",
+        "message": "Hello From Waforge Team!",
         "emoji": "👌👌👌👌👌👌👌👌👌👌",
-        "author": "Sai Teja"
+        "author": "Sai"
     }
 
     return render_template("index.html", data=data)
